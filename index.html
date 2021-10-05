@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exclusive Stores</title>
+    <!-- Remic Icons Fonts -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" async></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-container">
+          <div class="nav-left">
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAAAqUlEQVRoge3WsQ3CMBRF0W8WICMwAz3DMgMl0FEQKBmAUR4F3x1EEEv+jnVPmyh6V4osmwEAAAC1SFpLOkjaR2+ZzSNGvd2j98ziEVePeEraRG/6W08RIxHRJA1EtMAjbkREW0pEmnooaTCzs5lt68z56pJS2k29sKq1pJDKv7CQX+snXRy7GTGt6uKelXVxfc+IaVWPMfkAeETvKeIxR0mn6C0AAADARy+Ug3gigQLR4wAAAABJRU5ErkJggg=="
+              class="back-arrow"
+            />
+            <span>My Cart </span>
+          </div>
+          <div class="nav-right">
+            <div class="cart-right-img">
+              <div class="no-items-cart"></div>
+              <img src="./img/cart.svg" alt="" class="cart-img" />
+            </div>
+
+            <span>Total: </span>
+            <span class="cart-price">₦27000</span>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="cart-container">
+      <div class="cart-details">
+        <div class="cart-left">
+          <div class="cart-item-img">
+            <img src="./img/bag.svg" alt="" class="cart-item-img" />
+          </div>
+          <div class="cart-item-details">
+            <span class="cart-item"> Bag </span>
+            <div class="cart-item-price">₦12500</div>
+          </div>
+        </div>
+        <div class="cart-right">
+          <i class="ri-heart-line fav-icon"></i>
+          <div class="cart-quantity">
+            <i class="ri-subtract-line sub-icon"></i>
+            <!-- <span class="">1</span> -->
+            <input type="text" class="item-quantity" value="1" />
+            <!-- <i class="ri-checkbox-blank-line"></i> -->
+            <i class="ri-add-line plus-icon"></i>
+          </div>
+          <img src="./img/delete.svg" alt="" class="delete-icon" />
+        </div>
+      </div>
+
+      <div class="cart-details">
+        <div class="cart-left">
+          <div class="cart-item-img">
+            <img src="./img/glasses.svg" alt="" class="cart-item-img" />
+          </div>
+          <div class="cart-item-details">
+            <span class="cart-item"> Glasses </span>
+            <div class="cart-item-price">₦3500</div>
+          </div>
+        </div>
+        <div class="cart-right">
+          <i class="ri-heart-line fav-icon"></i>
+          <div class="cart-quantity">
+            <i class="ri-subtract-line sub-icon"></i>
+            <input type="text" class="item-quantity" value="1" />
+
+            <!-- <span class="item-quantity">1</span> -->
+            <!-- <i class="ri-checkbox-blank-line"></i> -->
+            <i class="ri-add-line plus-icon"></i>
+          </div>
+          <img src="./img/delete.svg" alt="" class="delete-icon" />
+        </div>
+      </div>
+
+      <div class="cart-details">
+        <div class="cart-left">
+          <div class="cart-item-img">
+            <img src="./img/watch.svg" alt="" class="cart-item-img" />
+          </div>
+          <div class="cart-item-details">
+            <span class="cart-item"> Wristwatch </span>
+            <div class="cart-item-price">₦6000</div>
+          </div>
+        </div>
+        <div class="cart-right">
+          <i class="ri-heart-line fav-icon"></i>
+          <div class="cart-quantity">
+            <i class="ri-subtract-line sub-icon"></i>
+            <input type="text" class="item-quantity" value="1" />
+
+            <!-- <i class="ri-checkbox-blank-line quantity-box"></i> -->
+            <!-- <span class="item-quantity">1</span> -->
+            <i class="ri-add-line plus-icon"></i>
+          </div>
+          <img src="./img/delete.svg" alt="" class="delete-icon" />
+        </div>
+      </div>
+
+      <div class="cart-details">
+        <div class="cart-left">
+          <div class="cart-item-img">
+            <img src="./img/sneakers.svg" alt="" class="cart-item-img" />
+          </div>
+          <div class="cart-item-details">
+            <span class="cart-item"> Shoe </span>
+            <div class="cart-item-price">₦5000</div>
+          </div>
+        </div>
+        <div class="cart-right">
+          <i class="ri-heart-line fav-icon"></i>
+          <div class="cart-quantity">
+            <i class="ri-subtract-line sub-icon"></i>
+            <input type="text" class="item-quantity" value="1" />
+
+            <!-- <span class="item-quantity">1</span> -->
+            <!-- <i class="ri-checkbox-blank-line"></i> -->
+            <i class="ri-add-line plus-icon"></i>
+          </div>
+          <img src="./img/delete.svg" alt="" class="delete-icon" />
+        </div>
+      </div>
+
+      <button class="place-order">Place Order</button>
+    </section>
+
+    <section class="menu-bar">
+      <img src="./img/home.svg" alt="" class="home-icon" />
+      <img src="./img/shopping_bag.svg" alt="" class="bag-icon" />
+      <img src="./img/cart.svg" alt="" class="cart-icon" />
+    </section>
+  </body>
+</html>
